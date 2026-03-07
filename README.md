@@ -22,11 +22,8 @@ pip install requests veracode-api-signing
 
 ### Veracode Platform Requirements
 
-**Required API Permissions:**
-- Results API - Read access to SCA workspaces, projects, and SBOM data
-
 **Minimum Role:**
-- Submitter role or higher with access to SCA workspaces
+- Reviewer role or higher with access to SCA workspaces
 
 Note: The authenticated user must have access to the workspaces and projects you wish to export. Users will only be able to export SBOMs for projects they have permission to view.
 
